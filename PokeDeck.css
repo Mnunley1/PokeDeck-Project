@@ -1,0 +1,59 @@
+/* Add your css styles here */
+body {
+	margin: 0;
+	color: white;
+	background-color: #000;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+	padding: 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#pokemonList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 10px;
+}
+
+.card {
+	list-style: none;
+	background-color: #323232;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	border: 3px solid transparent;
+	border-radius: 10px;
+}
+
+.card:hover {
+	border: 3px solid red;
+}
+
+.card-header {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.sub-header {
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.card-image {
+	height: 200px;
+	width: auto;
+}
+
+button {
+	padding: 10px;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	outline: none;
+}
